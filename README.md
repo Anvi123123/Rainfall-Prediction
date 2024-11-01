@@ -1,6 +1,7 @@
-# Rainfall-Prediction-end-to-end-ML-project
+# Rainfall-Prediction
 
-The main motive of the project is to predict the amount of rainfall in Vidarbha region or state well in advance. We predict average rainfall using past data.
+The main motive of the project is to predict the amount of rainfall in Andaman & Nicobar region. 
+We predict average rainfall using past data (1901-2015).
 
 ![alt text](static/workFlow.png)
 
@@ -38,11 +39,12 @@ The main motive of the project is to predict the amount of rainfall in Vidarbha 
    The Flask app will start running, typically on `http://127.0.0.1:5000/`.
 
 ## CONCLUSION
-
-XGBoost and Random Forest performed better compared to other models. However, if speed is an important thing to consider, we can stick with Random Forest instead of XGBoost.
-
+The hybrid model improves rainfall prediction accuracy by combining regression and classification techniques, 
+capturing linear and non-linear data relationships. 
+It addresses temporal variability better than traditional models and adapts to diverse regions. 
 
 ## Improvements that can be done:
 
-Here we can collect more data and use neurals networks
-more computational power could be really useful for us.
+More data and more computational power could be a great help.
+Further enhancements, such as adding temperature and humidity, 
+could make it an essential tool for precise rainfall forecasting.
