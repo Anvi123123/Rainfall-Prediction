@@ -3,8 +3,6 @@
 The main motive of the project is to predict the amount of rainfall in Andaman & Nicobar region. 
 We predict average rainfall using past data (1901-2015).
 
-![alt text](static/workFlow.png)
-
 ## Tech Stack
 
 * Front-End: HTML, CSS
