@@ -1,0 +1,207 @@
+/* Rainfall Prediction Styles */
+
+/* Set the background image and ensure it covers the entire page */
+body {
+    background-image: url('134878.jpg'); /* Adjust with your preferred image */
+    background-size: cover;
+    background-position: center;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(135deg, #1a2a6c, #000000);
+    color: #ffffff;
+}
+
+/* Center the content and adjust padding */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Style for the heading, making it fun and eye-catching */
+h1 {
+    font-family: 'Fredoka One', cursive; /* Fun font */
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    color: #4CAF50;
+}
+
+/* Center align the h2 using flexbox */
+h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 80px;
+}
+
+/* Translucent card with a blur effect */
+.card {
+    background: rgba(255, 255, 255, 0.1); /* Translucent background */
+    backdrop-filter: blur(10px); /* Blur effect to make it pop */
+    border-radius: 15px;
+    padding: 20px; /* Padding around the content */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    max-width: 1000px; /* Adjust width to fit content */
+    width: auto; /* Auto width to fit content */
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Input field styling */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/* Input field focus styling */
+input[type="text"]:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Button styling */
+button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #4CAF50;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background: #45a049;
+}
+
+/* Smaller margin at the top to reduce empty space */
+.card-body {
+    margin-top: 5px;
+    padding: 10px; /* Adjust padding for better spacing */
+    width: auto; /* Auto width to adjust based on content */
+}
+/* Rainfall Prediction Styles */
+
+/* ... (keep your existing styles) ... */
+
+/* Dropdown styling */
+select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-size: 16px;
+    appearance: none; /* Removes default styling */
+    cursor: pointer;
+}
+
+/* Custom dropdown arrow */
+select {
+    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    padding-right: 30px; /* Space for the arrow */
+}
+
+/* Dropdown focus state */
+select:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Style for the dropdown options */
+select option {
+    background-color: #1a2a6c;
+    color: #ffffff;
+}
+
+/* Placeholder text color */
+select option[value=""][disabled] {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Adjust other input fields to match the select styling */
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-size: 16px;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Ensure consistent styling across form elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+/* Add this to your existing CSS */
+
+/* Set a specific width for year and month inputs */
+.form-group.date-input {
+    width: 200px; /* Adjust this value as needed */
+    display: inline-block;
+    margin-right: 20px; /* Add some space between the inputs */
+}
+
+/* Ensure the select and input have the same width within their form groups */
+.form-group.date-input input,
+.form-group.date-input select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Optional: If you want to align them side by side */
+.card-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Adjust other form groups if necessary */
+.form-group:not(.date-input) {
+    width: 100%;
+}
